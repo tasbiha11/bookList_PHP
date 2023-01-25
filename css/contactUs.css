@@ -1,0 +1,53 @@
+body {
+    background:
+        linear-gradient(rgba(246, 247, 249, 0.8),
+            rgba(246, 247, 249, 0.8)),
+        url('../bg-clouds.jpg') no-repeat center center fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-cust {
+    color: rgb(41, 41, 132);
+}
+
+.color-cust {
+    color: rgb(41, 41, 132);
+}
+
+.bg-cust {
+    background-color:
+        rgb(41, 41, 132);
+}
+
+.contact-list {
+    list-style-type: none;
+    margin-left: -30px;
+    padding-right: 20px;
+}
+
+.list-item {
+    line-height: 4;
+    color: rgb(41, 41, 132);
+}
+
+.space {
+    margin-left: 20px;
+}
+
+.contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: rgb(41, 41, 132);
+}
+
+.contact-text a {
+    color: rgb(41, 41, 132);
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+hr {
+    border-color: rgb(41, 41, 132);
+}
